@@ -64,8 +64,7 @@ struct ExpensePeriod {
     self.date = date
     self.expenses = []
     self.currency = currency
-    let currentDate = Date()
-    self.idExpensePeriod = "\(self.date.year())-\(self.date.month())\(currentDate.year())\(currentDate.month())\(currentDate.day())\(currentDate.hour())\(currentDate.minute())\(currentDate.second())"
+    self.idExpensePeriod = UUID().uuidString
   }
   
   //MARK: - Update

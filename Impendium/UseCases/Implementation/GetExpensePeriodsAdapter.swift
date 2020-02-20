@@ -20,7 +20,7 @@ final class GetExpensePeriodsAdapter: GetExpensePeriods {
   }
   
   func execute() -> AnyPublisher<[ExpensePeriod], Never> {
-    return dependencies.expensesStorage.expenses
+    return dependencies.expensesStorage.expensesPublisher
   }
 }
 

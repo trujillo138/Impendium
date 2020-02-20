@@ -11,9 +11,12 @@ import Combine
 
 final class FileExpensesStorage: ExpensesStorage {
   static let shared = FileExpensesStorage()
-  
-  var expenses: AnyPublisher<[ExpensePeriod], Never> {
+  var user = User()
+  var expensesPublisher: AnyPublisher<[ExpensePeriod], Never> {
     return $cachedExpenses.eraseToAnyPublisher()
+  }
+  var periods: [ExpensePeriod] {
+    return cachedExpenses
   }
   @Published private var cachedExpenses: [ExpensePeriod] = []
   

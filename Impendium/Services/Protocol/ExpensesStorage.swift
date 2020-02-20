@@ -10,6 +10,8 @@ import Foundation
 import Combine
 
 protocol ExpensesStorage {
-  var expenses: AnyPublisher<[ExpensePeriod], Never> { get }
+  var user: User { get }
+  var periods: [ExpensePeriod] { get }
+  var expensesPublisher: AnyPublisher<[ExpensePeriod], Never> { get }
   func addPeriod(_: ExpensePeriod)
 }

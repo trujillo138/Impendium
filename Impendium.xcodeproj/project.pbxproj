@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40019A3D23FE37F500BC0BDE /* AddPreviousExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40019A3C23FE37F500BC0BDE /* AddPreviousExpenseViewModel.swift */; };
+		40019A3F23FE383B00BC0BDE /* AddPreviousExpenseViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40019A3E23FE383B00BC0BDE /* AddPreviousExpenseViewModelTests.swift */; };
+		40019A4123FE390200BC0BDE /* MockAddExpensePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40019A4023FE390200BC0BDE /* MockAddExpensePeriod.swift */; };
+		40019A4323FE395800BC0BDE /* MockIsDateValidForNewPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40019A4223FE395800BC0BDE /* MockIsDateValidForNewPeriod.swift */; };
 		4023D22423E4679D007525B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023D22323E4679D007525B1 /* AppDelegate.swift */; };
 		4023D22623E4679D007525B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023D22523E4679D007525B1 /* SceneDelegate.swift */; };
 		4023D22A23E467A3007525B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4023D22923E467A3007525B1 /* Assets.xcassets */; };
@@ -34,6 +38,15 @@
 		40308CEA23E768A6006F80B6 /* ApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40308CE923E768A6006F80B6 /* ApplicationService.swift */; };
 		40308CED23E7696E006F80B6 /* UIApplication+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40308CEC23E7696E006F80B6 /* UIApplication+Service.swift */; };
 		40308CF123E76A1D006F80B6 /* MockApplicationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40308CF023E76A1D006F80B6 /* MockApplicationService.swift */; };
+		403B6F9123FB577D00A86022 /* AddExpensePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B6F9023FB577D00A86022 /* AddExpensePeriod.swift */; };
+		403B6F9323FB57C200A86022 /* AddExpensePeriodAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B6F9223FB57C200A86022 /* AddExpensePeriodAdapter.swift */; };
+		403B6F9623FB583000A86022 /* GetExpensePeriodsAdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B6F9523FB583000A86022 /* GetExpensePeriodsAdapterTests.swift */; };
+		403B6F9823FB58C500A86022 /* MockExpensesStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B6F9723FB58C500A86022 /* MockExpensesStorage.swift */; };
+		403B6F9C23FB6E1600A86022 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B6F9B23FB6E1600A86022 /* AlertView.swift */; };
+		403B6F9E23FB751600A86022 /* IsDateValidForNewPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B6F9D23FB751600A86022 /* IsDateValidForNewPeriod.swift */; };
+		403B6FA023FB753F00A86022 /* IsDateValidForNewPeriodAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B6F9F23FB753F00A86022 /* IsDateValidForNewPeriodAdapter.swift */; };
+		403B6FA223FB75FB00A86022 /* AddExpensePeriodAdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B6FA123FB75FB00A86022 /* AddExpensePeriodAdapterTests.swift */; };
+		403B6FA423FB766100A86022 /* IsDateValidForNewPeriodAdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403B6FA323FB766100A86022 /* IsDateValidForNewPeriodAdapterTests.swift */; };
 		403D604E23EBC531009E851B /* AddPreviousExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D604D23EBC531009E851B /* AddPreviousExpenseView.swift */; };
 		403D605123EBCE8C009E851B /* ExpensesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D605023EBCE8C009E851B /* ExpensesViewModelTests.swift */; };
 		403D605323EBCEBE009E851B /* ExpensesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D605223EBCEBE009E851B /* ExpensesViewModel.swift */; };
@@ -60,6 +73,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40019A3C23FE37F500BC0BDE /* AddPreviousExpenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPreviousExpenseViewModel.swift; sourceTree = "<group>"; };
+		40019A3E23FE383B00BC0BDE /* AddPreviousExpenseViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPreviousExpenseViewModelTests.swift; sourceTree = "<group>"; };
+		40019A4023FE390200BC0BDE /* MockAddExpensePeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAddExpensePeriod.swift; sourceTree = "<group>"; };
+		40019A4223FE395800BC0BDE /* MockIsDateValidForNewPeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockIsDateValidForNewPeriod.swift; sourceTree = "<group>"; };
 		4023D22023E4679D007525B1 /* Impendium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Impendium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4023D22323E4679D007525B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4023D22523E4679D007525B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +108,15 @@
 		40308CE923E768A6006F80B6 /* ApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationService.swift; sourceTree = "<group>"; };
 		40308CEC23E7696E006F80B6 /* UIApplication+Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Service.swift"; sourceTree = "<group>"; };
 		40308CF023E76A1D006F80B6 /* MockApplicationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockApplicationService.swift; sourceTree = "<group>"; };
+		403B6F9023FB577D00A86022 /* AddExpensePeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpensePeriod.swift; sourceTree = "<group>"; };
+		403B6F9223FB57C200A86022 /* AddExpensePeriodAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpensePeriodAdapter.swift; sourceTree = "<group>"; };
+		403B6F9523FB583000A86022 /* GetExpensePeriodsAdapterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetExpensePeriodsAdapterTests.swift; sourceTree = "<group>"; };
+		403B6F9723FB58C500A86022 /* MockExpensesStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockExpensesStorage.swift; sourceTree = "<group>"; };
+		403B6F9B23FB6E1600A86022 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		403B6F9D23FB751600A86022 /* IsDateValidForNewPeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsDateValidForNewPeriod.swift; sourceTree = "<group>"; };
+		403B6F9F23FB753F00A86022 /* IsDateValidForNewPeriodAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsDateValidForNewPeriodAdapter.swift; sourceTree = "<group>"; };
+		403B6FA123FB75FB00A86022 /* AddExpensePeriodAdapterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpensePeriodAdapterTests.swift; sourceTree = "<group>"; };
+		403B6FA323FB766100A86022 /* IsDateValidForNewPeriodAdapterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsDateValidForNewPeriodAdapterTests.swift; sourceTree = "<group>"; };
 		403D604D23EBC531009E851B /* AddPreviousExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPreviousExpenseView.swift; sourceTree = "<group>"; };
 		403D605023EBCE8C009E851B /* ExpensesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewModelTests.swift; sourceTree = "<group>"; };
 		403D605223EBCEBE009E851B /* ExpensesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewModel.swift; sourceTree = "<group>"; };
@@ -124,6 +150,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40019A3A23FE37C100BC0BDE /* Periods */ = {
+			isa = PBXGroup;
+			children = (
+				4023D26823E46938007525B1 /* ExpensesView.swift */,
+				403D605223EBCEBE009E851B /* ExpensesViewModel.swift */,
+				4073104923EA5BA800DE730C /* ExpensesRowView.swift */,
+			);
+			path = Periods;
+			sourceTree = "<group>";
+		};
+		40019A3B23FE37D100BC0BDE /* PreviousExpensePeriod */ = {
+			isa = PBXGroup;
+			children = (
+				403D604D23EBC531009E851B /* AddPreviousExpenseView.swift */,
+				40019A3C23FE37F500BC0BDE /* AddPreviousExpenseViewModel.swift */,
+			);
+			path = PreviousExpensePeriod;
+			sourceTree = "<group>";
+		};
 		4023D21723E4679D007525B1 = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				40308CEE23E76A0F006F80B6 /* Mock */,
+				403B6F9423FB57F100A86022 /* UseCases */,
 				40308CE123E7627A006F80B6 /* Scenes */,
 				4023D23C23E467A3007525B1 /* Info.plist */,
 			);
@@ -223,10 +269,8 @@
 		4023D26723E4692F007525B1 /* Expenses */ = {
 			isa = PBXGroup;
 			children = (
-				4023D26823E46938007525B1 /* ExpensesView.swift */,
-				403D605223EBCEBE009E851B /* ExpensesViewModel.swift */,
-				4073104923EA5BA800DE730C /* ExpensesRowView.swift */,
-				403D604D23EBC531009E851B /* AddPreviousExpenseView.swift */,
+				40019A3A23FE37C100BC0BDE /* Periods */,
+				40019A3B23FE37D100BC0BDE /* PreviousExpensePeriod */,
 			);
 			path = Expenses;
 			sourceTree = "<group>";
@@ -255,6 +299,7 @@
 			children = (
 				4023D27423E46D39007525B1 /* Helpers */,
 				4023D27223E46BCC007525B1 /* Colors.swift */,
+				403B6F9B23FB6E1600A86022 /* AlertView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -328,14 +373,26 @@
 			isa = PBXGroup;
 			children = (
 				40308CF023E76A1D006F80B6 /* MockApplicationService.swift */,
+				403B6F9723FB58C500A86022 /* MockExpensesStorage.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		403B6F9423FB57F100A86022 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				403B6FA123FB75FB00A86022 /* AddExpensePeriodAdapterTests.swift */,
+				403B6F9523FB583000A86022 /* GetExpensePeriodsAdapterTests.swift */,
+				403B6FA323FB766100A86022 /* IsDateValidForNewPeriodAdapterTests.swift */,
+			);
+			path = UseCases;
 			sourceTree = "<group>";
 		};
 		403D604F23EBCE78009E851B /* Expenses */ = {
 			isa = PBXGroup;
 			children = (
 				403D605023EBCE8C009E851B /* ExpensesViewModelTests.swift */,
+				40019A3E23FE383B00BC0BDE /* AddPreviousExpenseViewModelTests.swift */,
 			);
 			path = Expenses;
 			sourceTree = "<group>";
@@ -344,6 +401,8 @@
 			isa = PBXGroup;
 			children = (
 				403D605C23EBD11C009E851B /* MockGetExpensePeriods.swift */,
+				40019A4023FE390200BC0BDE /* MockAddExpensePeriod.swift */,
+				40019A4223FE395800BC0BDE /* MockIsDateValidForNewPeriod.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -361,7 +420,9 @@
 		403D605A23EBD0C5009E851B /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				403B6F9023FB577D00A86022 /* AddExpensePeriod.swift */,
 				403D605E23EBD148009E851B /* GetExpensePeriods.swift */,
+				403B6F9D23FB751600A86022 /* IsDateValidForNewPeriod.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -369,7 +430,9 @@
 		403D605B23EBD0CD009E851B /* Implementation */ = {
 			isa = PBXGroup;
 			children = (
+				403B6F9223FB57C200A86022 /* AddExpensePeriodAdapter.swift */,
 				403D606023EBD2A7009E851B /* GetExpensePeriodsAdapter.swift */,
+				403B6F9F23FB753F00A86022 /* IsDateValidForNewPeriodAdapter.swift */,
 			);
 			path = Implementation;
 			sourceTree = "<group>";
@@ -489,17 +552,21 @@
 				4023D27923E46D39007525B1 /* Collection.swift in Sources */,
 				403D605323EBCEBE009E851B /* ExpensesViewModel.swift in Sources */,
 				4023D25F23E46838007525B1 /* ExpensePeriod.swift in Sources */,
+				403B6FA023FB753F00A86022 /* IsDateValidForNewPeriodAdapter.swift in Sources */,
 				40308CED23E7696E006F80B6 /* UIApplication+Service.swift in Sources */,
 				403D604E23EBC531009E851B /* AddPreviousExpenseView.swift in Sources */,
 				4023D25A23E46838007525B1 /* User.swift in Sources */,
 				4023D26C23E4698A007525B1 /* GraphsView.swift in Sources */,
+				403B6F9123FB577D00A86022 /* AddExpensePeriod.swift in Sources */,
 				4023D27823E46D39007525B1 /* DateFunctions.swift in Sources */,
 				404F120523F0F8F100FC2BBB /* ExpensesStorage.swift in Sources */,
 				4023D22423E4679D007525B1 /* AppDelegate.swift in Sources */,
 				4023D27C23E475D8007525B1 /* SettingsRowView.swift in Sources */,
 				4073104823EA578600DE730C /* MyInfoView.swift in Sources */,
 				4023D25C23E46838007525B1 /* ExpenseCategory.swift in Sources */,
+				40019A3D23FE37F500BC0BDE /* AddPreviousExpenseViewModel.swift in Sources */,
 				40308CEA23E768A6006F80B6 /* ApplicationService.swift in Sources */,
+				403B6F9E23FB751600A86022 /* IsDateValidForNewPeriod.swift in Sources */,
 				4023D22623E4679D007525B1 /* SceneDelegate.swift in Sources */,
 				4073104A23EA5BA800DE730C /* ExpensesRowView.swift in Sources */,
 				4023D26F23E469B0007525B1 /* SettingsView.swift in Sources */,
@@ -511,6 +578,8 @@
 				40308CE623E762D0006F80B6 /* SettingsViewModel.swift in Sources */,
 				4023D26323E468D1007525B1 /* TabBarView.swift in Sources */,
 				4023D25B23E46838007525B1 /* Currencies.swift in Sources */,
+				403B6F9323FB57C200A86022 /* AddExpensePeriodAdapter.swift in Sources */,
+				403B6F9C23FB6E1600A86022 /* AlertView.swift in Sources */,
 				4023D27A23E46D39007525B1 /* Double.swift in Sources */,
 				403D605923EBD0B5009E851B /* UseCaseInjection.swift in Sources */,
 				403D605723EBD099009E851B /* ServiceInjection.swift in Sources */,
@@ -523,10 +592,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				40308CF123E76A1D006F80B6 /* MockApplicationService.swift in Sources */,
+				403B6FA423FB766100A86022 /* IsDateValidForNewPeriodAdapterTests.swift in Sources */,
 				40DB16B723F5015B00B625BE /* Mock.swift in Sources */,
+				40019A4123FE390200BC0BDE /* MockAddExpensePeriod.swift in Sources */,
 				40308CE423E762A2006F80B6 /* SettingsViewModelTests.swift in Sources */,
+				403B6FA223FB75FB00A86022 /* AddExpensePeriodAdapterTests.swift in Sources */,
 				403D605D23EBD11C009E851B /* MockGetExpensePeriods.swift in Sources */,
+				403B6F9623FB583000A86022 /* GetExpensePeriodsAdapterTests.swift in Sources */,
+				40019A4323FE395800BC0BDE /* MockIsDateValidForNewPeriod.swift in Sources */,
 				403D605123EBCE8C009E851B /* ExpensesViewModelTests.swift in Sources */,
+				40019A3F23FE383B00BC0BDE /* AddPreviousExpenseViewModelTests.swift in Sources */,
+				403B6F9823FB58C500A86022 /* MockExpensesStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
